@@ -24,7 +24,7 @@ const CardForm = (props) => {
         },
             config
         )
-        window.location.replace("http://localhost:3000/dashboard/cardlist/")
+        window.location.replace("https://cranky-heisenberg-878d76.netlify.app/dashboard/cardlist/")
     }
 
 
