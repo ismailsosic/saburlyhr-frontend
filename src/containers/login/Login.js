@@ -25,10 +25,10 @@ const Login = () => {
         })
         setTimeout(() => {
             if (localStorage.getItem('token') !== "undefined"){
-                window.location.replace("http://localhost:3000/dashboard/cardlist")
+                window.location.replace("https://cranky-heisenberg-878d76.netlify.app/dashboard/cardlist")
             }
             else {
-                window.location.replace("http://localhost:3000/")
+                window.location.replace("https://cranky-heisenberg-878d76.netlify.app/")
             }
     }, 1000)
         
