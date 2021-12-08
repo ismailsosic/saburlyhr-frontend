@@ -17,7 +17,7 @@ const Login = () => {
 
     const submitHandler = (event) => {
         event.preventDefault()
-        const url = 'http://localhost:8000/api/token/'
+        const url = 'https://shrb2.herokuapp.com/api/token/'
         postData(url, credentials)
         .then(response => {
             localStorage.setItem('token', response.access)

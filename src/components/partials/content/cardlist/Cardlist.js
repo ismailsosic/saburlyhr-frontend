@@ -7,7 +7,7 @@ import axios from 'axios';
 
 const CardList = () => {
 
-    const url = 'http://localhost:8000/api/cards/'
+    const url = 'https://shrb2.herokuapp.com/api/cards/'
     const [cards, setCards] = useState([])
     const [IN, setIN] = useState(false)
 
